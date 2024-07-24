@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+
 """
 Django settings for menu_tag_project project.
 
@@ -39,6 +40,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "mptt",
+    "main_app",
 ]
 
 MIDDLEWARE = [
